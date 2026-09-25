@@ -1,0 +1,53 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Haunted Halloween Party</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800&family=Crimson+Pro:ital,wght@0,400;1,400&display=swap">
+<style>
+:root{
+  color-scheme: dark;
+  --night:#0b0c1e;
+  --dusk:#1b1f45;
+  --pumpkin:#ff8c19;
+  --candle:#ffd27a;
+  --mist:#e9e2ff;
+  --mist-dim:#a9a6c9;
+  --display:"Cinzel","Palatino Linotype",Georgia,serif;
+  --body:"Crimson Pro",Georgia,"Times New Roman",serif;
+}
+body{
+  background:radial-gradient(120% 80% at 50% 0%,var(--dusk) 0%,var(--night) 60%);
+  background-color:var(--night);
+  color:var(--mist);
+  font-family:var(--body);
+  font-size:18px;
+  line-height:1.5;
+  padding-inline:16px;
+  padding-block:24px 48px;
+  min-height:100vh;
+}
+main{max-width:1100px;margin-inline:auto;display:flex;flex-direction:column;gap:32px}
+.poster{margin:0;line-height:0;border-radius:6px;overflow:hidden;box-shadow:0 0 0 1px #ffffff14,0 24px 80px #000a,0 0 120px #ff8c1922}
+.poster img{display:block;width:100%;height:auto}
+.details{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:24px 40px;text-align:center;padding-block:8px}
+.label{font-family:var(--display);font-weight:600;font-size:.8rem;letter-spacing:.28em;text-transform:uppercase;color:var(--mist-dim);margin:0 0 8px}
+.value{font-family:var(--display);font-weight:800;font-size:clamp(1.6rem,4vw,2.4rem);line-height:1.15;color:var(--pumpkin);margin:0;text-wrap:balance;text-shadow:0 0 28px #ff8c1966}
+.sub{margin:6px 0 0;font-style:italic;color:var(--candle)}
+.dare{text-align:center;font-style:italic;color:var(--mist-dim);margin:0}
+</style>
+<main>
+  <figure class="poster">
+    <img src="invite.jpg" width="2400" height="1800" alt="A dark blue house at night under a full moon with bats overhead, windows glowing orange, jack-o'-lanterns on the lawn and fog. Text reads: You're invited to a haunted Halloween party, October 24, 6 to 8 PM.">
+  </figure>
+  <section class="details" aria-label="Party details">
+    <div>
+      <p class="label">Date</p>
+      <p class="value">Saturday, October 24</p>
+    </div>
+    <div>
+      <p class="label">Time</p>
+      <p class="value">6 to 8 PM</p>
+    </div>
+  </section>
+  <p class="dare">Come if you dare.</p>
+</main>
+
+</body></html>
